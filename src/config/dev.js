@@ -1,0 +1,51 @@
+import { devnet, mainnet } from '../constants/cluster';
+
+const CLUSTER_API = devnet;
+const CLUSTER = 'devnet';
+
+const COMMITMENT = 'max';
+const IPFS_URL = 'https://gateway.pinata.cloud/ipfs';
+const NFT_UPDATE_AUTHORITY = "3XcLmJe8Hrc8LAcoM5ddA9h63t9DY7whwGLEGJNCen7Z";
+const NFT_NAME_PREFIX = "RuggedRats";
+const EGG_UPDATE_AUTHORITY = "CvUGgFLdmUxGqzEJyPcDWfLptyFJ33CnA37eeXcwXsDh";
+const EGG_NAME_PREFIX = "InfinityDrakes";
+const PROGRAM_ID = 'EZKphrBuEVYbQanscd4g5G89LffV2yAq8uwX5Lh8ANFq';
+const EGG_CM_ID = "7xc2uJx8v6M8qrZesikbHRGTmVd2APktAAXzn6X2PaZx";
+const BABY_CM_ID = "EbsS1M6aE5gHuY4FGPcHCV9f5P9hFfJXFpUgJk3Apwme";
+const VAULT_PDA = "ArrV115kKNjKK1kEV9uDPTuWy2rv2mA5V8MDDKycX2xU";
+const REWARD_TOKEN_MINT = "GnBw4qZs3maF2d5ziQmGzquQFnGV33NUcEujTQ3CbzP3";
+const REWARD_TOKEN_ACCOUNT = "ChcYxxwhgNSkx5YK9LkzFdEwLsUUGBNXjdzwLhCkUuE6";
+const BURN_ACCOUNT = "DhkDXU2JVuoya8w8fd8VPvS1seakeLfbzzU525qkFro9";
+const MINIMUS_SPL_TOKEN = 960;
+const DAYTIME = 10;
+const LAUNCH_TIMESTAMP = 1645793350;
+const INCREASEMENT_RATE = 0.25;
+const PERIOD1 = 10;
+const PERIOD2 = 30;
+const TOKEN_FOR_FASTER_MODE = 400;
+
+
+export {
+  CLUSTER_API,
+  CLUSTER,
+  COMMITMENT,
+  IPFS_URL,
+  NFT_UPDATE_AUTHORITY,
+  NFT_NAME_PREFIX,
+  EGG_UPDATE_AUTHORITY,
+  EGG_NAME_PREFIX,
+  PROGRAM_ID,
+  EGG_CM_ID,
+  BABY_CM_ID,
+  REWARD_TOKEN_MINT,
+  REWARD_TOKEN_ACCOUNT,
+  MINIMUS_SPL_TOKEN,
+  DAYTIME,
+  INCREASEMENT_RATE,
+  LAUNCH_TIMESTAMP,
+  BURN_ACCOUNT,
+  PERIOD1,
+  PERIOD2,
+  TOKEN_FOR_FASTER_MODE
+
+}

@@ -1,0 +1,167 @@
+* {
+	font-family: 'Priate';
+}
+
+*::-webkit-scrollbar {
+	width: 2px;
+}
+
+*::-webkit-scrollbar-track {
+	background-color: rgba(10, 240, 255, 0);
+	border-radius: 100px;
+}
+
+*::-webkit-scrollbar-thumb {
+	background: #888;
+	border-radius: 10px;
+}
+
+:root {
+	--fontColor: #2D2727;
+	--fontSuccess: #52E350;
+	--fontWarning: #CEAD00;
+	--fontBrown: #541111;
+	--fontPurple: #CC00FF;
+	--fontBrightGreen: #00FF38;
+}
+
+.standard_font {
+	color: var(--fontColor);
+}
+
+.wallet_font {
+	color: rgba(5, 6, 6, 0.85);
+}
+
+.font_success {
+	color: var(--fontSuccess);
+}
+
+.font_warning {
+	color: var(--fontWarning);
+}
+
+.font_brown {
+	color: var(--fontBrown);
+}
+
+.font_purple {
+	color: var(--fontPurple);
+}
+
+.font_green {
+	color: var(--fontBrightGreen);
+}
+
+.font_roboto {
+	font-family: 'Roboto';
+}
+
+.fontsize_25 {
+	font-size: 22px;
+}
+
+.fontsize_30 {
+	font-size: 26px;
+}
+
+.fontsize_35 {
+	font-size: 32px;
+}
+
+.fontsize_40 {
+	font-size: 36px;
+}
+
+.panel_left {
+	width: 68%;
+}
+
+.panel_right {
+	width: 30%;
+}
+
+.scroll_panel {
+	max-height: 800px;
+	min-height: 800px;
+	overflow: auto;
+	/* border-bottom-right-radius: 0 !important;
+	border-top-right-radius: 0 !important; */
+}
+
+@media (max-width: 1895px) {
+	.fontsize_25 {
+		font-size: 20px;
+	}
+
+	.fontsize_30 {
+		font-size: 24px;
+	}
+
+	.fontsize_35 {
+		font-size: 28px;
+	}
+
+	.fontsize_40 {
+		font-size: 32px;
+	}
+
+	.scroll_panel {
+		max-height: 516px;
+		min-height: 516px;
+	}
+}
+
+@media (max-width: 1599px) {
+	.fontsize_25 {
+		font-size: 18px;
+	}
+
+	.fontsize_30 {
+		font-size: 22px;
+	}
+
+	.fontsize_35 {
+		font-size: 26px;
+	}
+
+	.fontsize_40 {
+		font-size: 30px;
+	}
+
+	.panel_left {
+		width: 63%;
+	}
+
+	.panel_right {
+		width: 35%;
+	}
+
+	.scroll_panel {
+		max-height: 426px;
+		min-height: 426px;
+	}
+}
+
+@media (max-width: 1365px) {
+	.fontsize_25 {
+		font-size: 16px;
+	}
+
+	.fontsize_30 {
+		font-size: 20px;
+	}
+
+	.fontsize_35 {
+		font-size: 22px;
+	}
+
+	.fontsize_40 {
+		font-size: 26px;
+	}
+
+	.scroll_panel {
+		max-height: 372px;
+		min-height: 372px;
+	}
+}

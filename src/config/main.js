@@ -1,0 +1,52 @@
+import { devnet, mainnet } from '../constants/cluster';
+
+const CLUSTER_API = mainnet;
+const CLUSTER = 'mainnet-beta'
+
+const COMMITMENT = 'max';
+const IPFS_URL = 'https://gateway.pinata.cloud/ipfs';
+const NFT_UPDATE_AUTHORITY = "sr18fci27dNSKYJDyjCh2BhByB3cRbVv6iQHKkF5d2G";
+const NFT_NAME_PREFIX = "PunkyApesClub";
+
+const EGG_UPDATE_AUTHORITY = "AbmcZpoCMRSJaeWMc5ypB2aX1TgEoFuxt1fLUBiH9dHx";
+const EGG_NAME_PREFIX = "Frozen Baby Punky Apes";
+
+const PROGRAM_ID = 'DkoXtjerKDnJ3ybsLwaX57Df6TBwWa4NaJvUwimPcGZs';
+const EGG_CM_ID = "Cq7sv7mLVhcWXYQNSFA7kdtg7JmRfG4zAxhb6mNhFM6w";
+const BABY_CM_ID = "DHurqQDmrasAzmyaBe4CQtkBJ3dWFc3XA19GcRfYSYd7";
+
+const VAULT_PDA = "76pbdCEgvcekkmbHhmpXe636MD6JNNeKcpH9wHsH3UF7";
+const REWARD_TOKEN_MINT = "7vKX5rx57VPE1ozJesFzojdPjGZ3M89894PT27i6seUF";
+const REWARD_TOKEN_ACCOUNT = "143DZvguK8geHm1c8N8TsV7JRQm6Cx2MynVh14AFyWfT";
+const BURN_ACCOUNT = "8uYNtsuZpW1cvg8SDbLrMzQAATyfFRYRtgJMohmLLATN";
+const MINIMUS_SPL_TOKEN = 960;
+const DAYTIME = 86400;
+const LAUNCH_TIMESTAMP = 1646248334;
+const INCREASEMENT_RATE = 0.25;
+const PERIOD1 = 20;
+const PERIOD2 = 10;
+const TOKEN_FOR_FASTER_MODE = 400;
+
+export {
+  CLUSTER_API,
+  CLUSTER,
+  COMMITMENT,
+  IPFS_URL,
+  NFT_UPDATE_AUTHORITY,
+  NFT_NAME_PREFIX,
+  EGG_UPDATE_AUTHORITY,
+  EGG_NAME_PREFIX,
+  PROGRAM_ID,
+  EGG_CM_ID,
+  BABY_CM_ID,
+  REWARD_TOKEN_MINT,
+  REWARD_TOKEN_ACCOUNT,
+  MINIMUS_SPL_TOKEN,
+  DAYTIME,
+  INCREASEMENT_RATE,
+  LAUNCH_TIMESTAMP,
+  BURN_ACCOUNT,
+  PERIOD1,
+  PERIOD2,
+  TOKEN_FOR_FASTER_MODE
+}
